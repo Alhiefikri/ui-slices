@@ -34,3 +34,67 @@ ul li.active {
   color: #563ad6;
   font-weight: 500;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 50px 100px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.hero .images {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.hero .images img {
+  width: 600px;
+  height: 520px;
+}
+
+.hero .text {
+  padding: 0px 200px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.hero .text .title {
+  color: #02044a;
+  font-weight: 600;
+  font-size: 46px;
+}
+
+.hero .text .paragraph {
+  font-size: 18px;
+  color: #9b9cb7;
+  margin-top: 10px;
+}
+
+.hero .text .buttons button {
+  margin-left: 10px;
+}
+.hero .text .buttons {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 13px 28px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+}
+
+button.primary {
+  background-color: #563ad6;
+  color: white;
+}
+
+button.secondary {
+  background-color: #eaebf4;
+  color: #777790;
+}
