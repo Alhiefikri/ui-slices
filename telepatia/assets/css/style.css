@@ -1,0 +1,36 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 100px;
+}
+
+nav .nav-header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  color: #02044a;
+  font-size: 1.375rem;
+}
+
+nav .nav-header .logo {
+  width: 45px;
+  padding-right: 20px;
+}
+
+ul li {
+  color: #02044a;
+  float: left;
+  font-size: 18px;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+ul li.active {
+  color: #563ad6;
+  font-weight: 500;
+}
