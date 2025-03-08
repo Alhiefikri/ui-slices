@@ -80,6 +80,127 @@ ul li.active {
   margin-top: 30px;
 }
 
+.brand-logo {
+  display: flex;
+  margin: auto;
+  width: 720px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.brands img {
+  width: 720px;
+}
+
+main .header .title {
+  color: #02044a;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+main .header .paragraph {
+  color: #9b9cb7;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+main {
+  padding: 100px 100px;
+  background-color: #f9f9fb;
+  margin-top: 79px;
+  text-align: center;
+}
+
+main .body {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 50px;
+}
+
+main .body .card.basic {
+  background-color: white;
+}
+
+main .body .card {
+  width: 250px;
+  text-align: left;
+  padding: 30px;
+  border-radius: 20px;
+  height: max-content;
+}
+
+main .body .card .tag {
+  color: #02044a;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: -20px;
+}
+
+main .body .card .price {
+  color: #02044a;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+main .body .card .description {
+  color: #9b9cb7;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main .body .card ul li {
+  color: #02044a;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+main .body .card ul {
+  float: left;
+  padding: 0px;
+}
+main .body .card ul li .icon {
+  margin-right: 10px;
+}
+
+main .body .card.features ul li {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+main .body .card button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+main .body .card.features {
+  color: white !important;
+  background-color: #563ad6;
+}
+
+main .body .card.features .tag {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: -20px;
+}
+
+main .body .card.features .price {
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+main .body .card.features .description {
+  color: #b19fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 button {
   font-size: 18px;
   font-weight: 600;
@@ -97,4 +218,9 @@ button.primary {
 button.secondary {
   background-color: #eaebf4;
   color: #777790;
+}
+
+button.alternatif {
+  background-color: #3abad6;
+  color: white;
 }
