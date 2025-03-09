@@ -9,6 +9,7 @@
 :root {
   --primary-color: #ffc265;
   --secondary-color: #1da599;
+  --tertiary-color: #4a4a4a;
   --primary-font: "Kufam", sans-serif;
 }
 
@@ -66,12 +67,148 @@ body {
   font-weight: 700;
 }
 
-.navbar__button {
+/* hero start */
+.hero {
+  margin-top: 78px;
+  margin-bottom: 78px;
+}
+
+.hero-wrapper {
+  max-width: 1240px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero__subheading {
+  width: max-content;
+  padding: 3px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #c1fffa;
+  display: inline-flex;
+  color: var(--secondary-color);
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.hero__heading {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 54px;
+  color: #4a4a4a;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.hero__description {
+  max-width: 600px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.hero__button {
+  margin-top: 32px;
+  padding: 30px 40px;
+  font-size: 20px;
+  line-height: 64%;
+  font-weight: 700;
+  background-color: var(--primary-color);
+  color: #3f3f3f;
+  border-radius: 10px;
+}
+
+.hero__image {
+  width: 610px;
+  height: auto;
+}
+
+/* about start */
+.about {
+  background-color: #f3fffe;
+  padding: 100px 0; /* Menggantikan min-height agar lebih fleksibel */
+}
+
+.about-wrapper {
+  max-width: 1240px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 54px;
+}
+
+.about__image {
+  width: 506px;
+  height: auto;
+}
+
+.about__heading {
+  font-family: var(--primary-font);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 140%;
+  color: var(--tertiary-color);
+}
+
+.about__description {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  max-width: 650px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about__item {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  color: var(--tertiary-color);
+}
+
+.about__icon {
+  width: 32px;
+  height: auto;
+}
+
+.about__button {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+/* about end */
+
+.button__primary {
   padding: 15px 40px;
   font-size: 20px;
   color: #3f3f3f;
   background-color: var(--primary-color);
-  border: 0px;
+  border: 0;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.button__secondary {
+  padding: 15px 40px;
+  font-size: 20px;
+  color: #3f3f3f;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
   font-weight: 700;
   border-radius: 10px;
 }
