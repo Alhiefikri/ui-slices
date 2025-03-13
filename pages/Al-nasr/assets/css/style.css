@@ -9,6 +9,7 @@
 :root {
   --primary-color: #ffc265;
   --secondary-color: #1da599;
+  --light-color: #f3fffe;
   --tertiary-color: #4a4a4a;
   --primary-font: "Kufam", sans-serif;
 }
@@ -381,6 +382,105 @@ body {
 }
 
 /* package end */
+
+/* facilities start */
+.facilities {
+  background-color: var(--light-color);
+  padding: 100px 0; /* Menggantikan min-height agar lebih fleksibel */
+}
+
+.facilities-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilities__heading {
+  font-family: var(--primary-font);
+  font-size: 54px;
+  font-weight: 700;
+  color: var(--tertiary-color);
+  margin-bottom: 10px;
+}
+
+.acilities__description {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--tertiary-color);
+  max-width: 600px;
+}
+
+.facilities__list {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
+
+.facilities__item article {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.item__icon {
+  padding: 0 3px;
+}
+
+.item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item__heading {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--tertiary-color);
+}
+
+.item__description {
+  max-width: 190px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--tertiary-color);
+}
+
+/* facilities end */
+
+/* testimonials start */
+.testimonials {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.testimonials-wrapper {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  flex-direction: column;
+}
+
+.testimonial__heading {
+  font-family: var(--primary-font);
+  font-size: 54px;
+  font-weight: 700;
+  color: var(--tertiary-color);
+}
+
+.testimonial__content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+/* testimonials end */
 
 .button__primary {
   padding: 15px 40px;
