@@ -607,6 +607,60 @@ body {
 }
 /* testimonials end */
 
+/* gallery start */
+.gallery {
+  background-color: var(--light-color);
+  padding: 100px 0;
+}
+
+.gallery-wrapper {
+  text-align: center;
+}
+
+.gallery__heading {
+  font-family: var(--primary-font);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 140%;
+  color: var(--tertiary-color);
+}
+
+.gallery__description {
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 700px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  color: var(--tertiary-color);
+}
+
+.gallery__grid {
+  display: flex;
+}
+
+/* Ukuran gambar */
+.gallery__item-right {
+  border-radius: 10px;
+  max-width: 329px;
+}
+
+.gallery__right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* Gambar pertama lebih besar */
+.gallery__item.big {
+  width: 530px;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/* gallery end */
+
 .button__primary {
   padding: 15px 40px;
   font-size: 20px;
