@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 1240px;
+  width: 1340px;
   margin: 0 auto;
 }
 
@@ -660,6 +660,51 @@ body {
 }
 
 /* gallery end */
+
+.footer {
+  background-color: #1da599;
+  padding: 80px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__content {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.footer__heading {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 10px;
+}
+
+.footer__logo {
+  max-width: 300px;
+}
+
+.footer__description {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer__name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer__item {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 .button__primary {
   padding: 15px 40px;
