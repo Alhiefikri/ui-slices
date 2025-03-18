@@ -27,6 +27,10 @@ module.exports = {
           "0px 5px 11px rgba(0,0,0,0.1)",
           "0px 0px 0px rgba(0,0,0,0.01)",
         ],
+        "xl-shadow": [
+          "0px 41px 89px rgba(0,0,0,0.1)",
+          "0px 0px 0px rgba(0,0,0,0.1)",
+        ],
       },
     },
   },
